@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHostFragment">
+
+    <fragment
+        android:id="@+id/navHostFragment"
+        android:name="com.jddw.demo_navigation.NavHostFragment"
+        android:label="NavHostFragment">
+        <action
+            android:id="@+id/action_navHostFragment_to_placeholder"
+            app:destination="@id/placeholder" />
+    </fragment>
+
+    <fragment android:id="@+id/placeholder" />
+</navigation>
